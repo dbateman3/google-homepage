@@ -2,19 +2,25 @@
 <html>
 <head>
 	<title>Google</title>
-	<link rel="styesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<div id="center">
 	<div id="google_image">
 		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="92">
 	</div>
 	<div id="form">
 		<form action="#" method="post">
-			<input name="q" style="border" medium none; type="text" outline:medium none>
+			<div id="box">
+			<input type="text" name="searchbox">
+			</div>
 			<br>
-			<input type="submit" value="Google Search">
-			<input type="submit" value="I'm Feeling Lucky">
+			<div id="buttons">
+			<input type="submit" name="search" value="Google Search">
+			<input type="submit" name= "lucky" value="I'm Feeling Lucky">
+			</div>
 		</form>
+	</div>
 	</div>
 
 
